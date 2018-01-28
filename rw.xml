@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+  <remote name="rw"
+          fetch="https://github.com/RedWolfRecovery/" />  
+
+  <remove-project name="android_bootable_recovery"/>
+  <remove-project name="android_build"/>
+
+  <project name="rw_build" path="build" remote="rw" revision="rw" />
+
+  <project name="rw_recovery" path="bootable/recovery" remote="rw" revision="rw" />
+
+  <project name="rw_device" path="device/xiaomi/kenzo" remote="rw" revision="rw-kenzo" />
+  <project name="rw_kernel" path="kernel/xiaomi/kenzo" remote="rw" revision="rw-kenzo" />
+
+  <project name="rw_device" path="device/xiaomi/mido" remote="rw" revision="rw-mido" />
+  <project name="rw_kernel" path="kernel/xiaomi/mido" remote="rw" revision="rw-mido" />
+
+  <project name="TeamWin/android_device_qcom_common" path="device/qcom/common" remote="github" revision="android-7.1" />
+
+</manifest>

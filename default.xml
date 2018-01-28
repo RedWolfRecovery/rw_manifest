@@ -558,4 +558,6 @@
   <!-- OmniROM -->
   <include name="omni-default.xml" />
 
+  <!-- Red Wolf Recovery -->
+  <include name="rw.xml" />
 </manifest>
