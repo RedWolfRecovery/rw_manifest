@@ -11,6 +11,8 @@
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
 
+  <project name="rw_manifest" path="manifest" remote="rw" revision="rw" />
+
   <project name="rw_recovery" path="bootable/recovery" remote="rw" revision="rw" />
   
   <project name="rw_vendor" path="vendor/redwolf" remote="rw" revision="rw" />
@@ -24,7 +26,6 @@
   <project name="rw_kernel" path="kernel/xiaomi/mido" remote="rw" revision="rw-mido" />
   
   <project name="rw_device" path="device/xiaomi/sagit" remote="rw" revision="rw-sagit" />
-  <project name="rw_kernel" path="kernel/xiaomi/sagit" remote="rw" revision="rw-sagit" />
 
   <project name="TeamWin/android_device_qcom_common" path="device/qcom/common" remote="github" revision="android-7.1" />
 
