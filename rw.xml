@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+  <remote name="rw"
+          fetch="https://github.com/RedWolfRecovery/" />  
+
+  <remove-project name="android_build"/>
+  <remove-project name="android_frameworks_base" />
+  <remove-project name="platform/bootable/recovery"/>
+
+  <project path="build/make" name="rw_build" remote="rw" revision="rw" >
+    <copyfile src="core/root.mk" dest="Makefile" />
+    <linkfile src="CleanSpec.mk" dest="build/CleanSpec.mk" />
+    <linkfile src="buildspec.mk.default" dest="build/buildspec.mk.default" />
+    <linkfile src="core" dest="build/core" />
+    <linkfile src="envsetup.sh" dest="build/envsetup.sh" />
+    <linkfile src="target" dest="build/target" />
+    <linkfile src="tools" dest="build/tools" />
+  </project>
+  
+  <project name="rw_device" path="device/xiaomi/kenzo" remote="rw" revision="rw-kenzo" />
+  <project name="rw_device" path="device/xiaomi/land" remote="rw" revision="rw-land" />
+  <project name="rw_device" path="device/xiaomi/mido" remote="rw" revision="rw-mido" />
+  <project name="rw_device" path="device/xiaomi/sagit" remote="rw" revision="rw-sagit" />
+
+  <project name="rw_kernel" path="kernel/xiaomi/kenzo" remote="rw" revision="rw-kenzo" />
+  <project name="rw_kernel" path="kernel/xiaomi/mido" remote="rw" revision="rw-mido" />
+
+  <project name="rw_manifest" path="manifest" remote="rw" revision="rw" />
+
+  <project name="rw_recovery" path="bootable/recovery" remote="rw" revision="rw" />
+  
+  <project name="rw_vendor" path="vendor/redwolf" remote="rw" revision="rw" />
+
+  <project path="device/qcom/common" name="TeamWin/android_device_qcom_common" remote="github" revision="android-8.0" />
+
+  <project path="external/busybox" name="omnirom/android_external_busybox" remote="github" revision="android-8.1" />
+
+  <project path="TeamWin/.repo/frameworks/base" name="android_frameworks_base" remote="omnirom" revision="android-8.1" clone-depth="1" >
+    <linkfile src="core/java/android/content" dest="frameworks/base/core/java/android/content" />
+    <linkfile src="core/java/android/security" dest="frameworks/base/core/java/android/security" />
+  </project> />
+
+</manifest>
