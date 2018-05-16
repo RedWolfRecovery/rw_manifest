@@ -7,11 +7,11 @@
   <remove-project name="android_bootable_recovery"/>
   <remove-project name="android_build"/>
 
-  <project name="rw_build" path="build" remote="rw" revision="rw" >
+  <project name="rw_build" path="build" remote="rw" revision="rw-n" >
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
 
-  <project name="rw_manifest" path="manifest" remote="rw" revision="rw" />
+  <project name="rw_manifest" path="manifest" remote="rw" revision="rw-n" />
 
   <project name="rw_recovery" path="bootable/recovery" remote="rw" revision="rw" />
   
