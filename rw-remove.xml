@@ -171,7 +171,6 @@
     <remove-project name="platform/external/libusb" />
     <remove-project name="platform/external/libusb-compat" />
     <remove-project name="platform/external/libvncserver" />
-    <remove-project name="platform/external/libvorbis" />
     <remove-project name="platform/external/libvpx" />
     <remove-project name="platform/external/libvterm" />
     <remove-project name="platform/external/libxml2" />
