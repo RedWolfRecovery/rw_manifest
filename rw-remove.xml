@@ -5,6 +5,7 @@
     <remove-project name="android_external_chromium-webview" />
     <remove-project name="android_external_libnetfilter_conntrack" />
     <remove-project name="android_external_libnfnetlink" />
+    <remove-project name="android_frameworks_av" />
     <remove-project name="android_frameworks_opt_net_ims" />
     <remove-project name="android_frameworks_opt_net_wifi" />
     <remove-project name="android_frameworks_opt_telephony" />
