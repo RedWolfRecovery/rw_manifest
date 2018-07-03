@@ -23,9 +23,6 @@
   <project name="rw_device" path="device/xiaomi/mido" remote="rw" revision="rw-mido" />
   <project name="rw_device" path="device/xiaomi/sagit" remote="rw" revision="rw-sagit" />
 
-  <project name="rw_kernel" path="kernel/xiaomi/kenzo" remote="rw" revision="rw-kenzo" />
-  <project name="rw_kernel" path="kernel/xiaomi/mido" remote="rw" revision="rw-mido" />
-
   <project name="rw_manifest" path="manifest" remote="rw" revision="rw" />
 
   <project name="rw_recovery" path="bootable/recovery" remote="rw" revision="rw" />
