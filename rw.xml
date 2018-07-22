@@ -20,8 +20,8 @@
   
   <project name="rw_device" path="device/xiaomi/kenzo" remote="rw" revision="rw-kenzo" />
   <project name="rw_device" path="device/xiaomi/land" remote="rw" revision="rw-land" />
-  <project name="rw_device" path="device/xiaomi/mido" remote="rw" revision="rw-mido" />
   <project name="rw_device" path="device/xiaomi/sagit" remote="rw" revision="rw-sagit" />
+  <project name="rw_device" path="device/xiaomi/whyred" remote="rw" revision="rw-whyred" />
 
   <project name="rw_manifest" path="manifest" remote="rw" revision="rw" />
 
